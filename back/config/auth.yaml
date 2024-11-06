@@ -1,0 +1,4 @@
+auth_login:
+    path: /auth/login
+    controller: App\Controller\AuthController::login
+    methods: POST
